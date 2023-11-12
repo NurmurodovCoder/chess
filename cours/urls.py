@@ -7,3 +7,4 @@ urlpatterns = [
     path('course/<int:pk>/', CourseDetailView.as_view(), name='course'),
     path('complaint/', ComplaintView.as_view(), name='complaint'),
 ]
+
